@@ -7,8 +7,6 @@ uses
 
 {$R *.res}
 
-{$R WindowsXP.res}
-
 begin
   Application.Initialize;
   Application.Title := 'Digital Plain Color Studio';

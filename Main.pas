@@ -25,7 +25,7 @@ interface
 uses
   Windows, SysUtils, Graphics, Forms, Dialogs, Classes, Controls, StdCtrls,
   ExtCtrls, ShellAPI, GR32, GR32_Image, GR32_Layers, Menus, Spin, Registry,
-  HandCursor, JPEG, ExtDlgs;
+  HandCursor, JPEG, ExtDlgs, System.UITypes;
 
 type
   TMainForm = class(TForm)
@@ -211,8 +211,8 @@ resourcestring
                    'Dithering-Funktion vorziehen (z.B. PhotoShop Pro).';
 
 const
-  tut_url = 'http://www.daniel-marschall.de/files/';
-  vts_url = 'http://www.viathinksoft.de/';
+  tut_url = 'https://misc.daniel-marschall.de/dpc_studio/';
+  vts_url = 'https://www.viathinksoft.de/';
   MarkerBorderWidth = 2;
   ckey = 'Software\ViaThinkSoft\DPC-Studio\Settings\';
 
@@ -1278,7 +1278,7 @@ var
 begin
   ColorForm.FColorChoose := TPanel(Sender).Color;
 
-  // Workaround: http://www.delphipraxis.net/topic75743,0,asc,0.html
+  // Workaround: https://www.delphipraxis.net/topic75743,0,asc,0.html
   // TODO: COMPILER-DIREKTIVE
   // ColorForm.PopupParent := Screen.ActiveForm;
 

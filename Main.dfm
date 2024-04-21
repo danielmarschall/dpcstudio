@@ -1,9 +1,9 @@
 object MainForm: TMainForm
   Left = 66
   Top = 114
-  Width = 914
-  Height = 589
   Caption = 'Digital Plain Color Studio'
+  ClientHeight = 136
+  ClientWidth = 120
   Color = clBlack
   Constraints.MinHeight = 175
   Font.Charset = DEFAULT_CHARSET
@@ -11,33 +11,32 @@ object MainForm: TMainForm
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   WindowState = wsMaximized
   OnClose = FormClose
   OnCreate = FormCreate
   OnKeyPress = FormKeyPress
   OnResize = FormResize
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object pnl_right: TPanel
-    Left = 721
+    Left = -65
     Top = 0
     Width = 185
-    Height = 562
+    Height = 136
     Align = alRight
     BevelOuter = bvNone
     Color = clBlack
     TabOrder = 0
     object pnl_control: TPanel
       Left = 0
-      Top = 457
+      Top = 32
       Width = 185
       Height = 105
       Align = alBottom
       BevelOuter = bvNone
       Color = clBlack
       TabOrder = 0
+      ExplicitTop = 31
       object btn_exit: TButton
         Left = 8
         Top = 72
@@ -94,21 +93,23 @@ object MainForm: TMainForm
       Left = 0
       Top = 0
       Width = 185
-      Height = 457
+      Height = 32
       Align = alClient
       BevelOuter = bvNone
       Color = clBlack
       TabOrder = 1
+      ExplicitHeight = 31
       object pnl_colorchanger: TPanel
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 32
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
         TabOrder = 1
         Visible = False
+        ExplicitHeight = 31
         object TitleColorChanger: TLabel
           Left = 8
           Top = 8
@@ -214,12 +215,13 @@ object MainForm: TMainForm
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 32
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
         TabOrder = 0
         Visible = False
+        ExplicitHeight = 31
         object TitleColorAnalyzer: TLabel
           Left = 8
           Top = 8
@@ -235,13 +237,14 @@ object MainForm: TMainForm
         end
         object pnl_color_bottom: TPanel
           Left = 0
-          Top = 376
+          Top = -49
           Width = 185
           Height = 81
           Align = alBottom
           BevelOuter = bvNone
           Color = clBlack
           TabOrder = 1
+          ExplicitTop = -50
           object lbl_farben_name: TLabel
             Left = 8
             Top = 0
@@ -323,7 +326,6 @@ object MainForm: TMainForm
           Font.Height = -11
           Font.Name = 'Courier'
           Font.Style = []
-          ItemHeight = 16
           ParentFont = False
           TabOrder = 0
           OnDrawItem = listbox_drawitem
@@ -362,7 +364,7 @@ object MainForm: TMainForm
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 31
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
@@ -510,7 +512,7 @@ object MainForm: TMainForm
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 31
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
@@ -532,7 +534,7 @@ object MainForm: TMainForm
         object LblAutoDescA: TLabel
           Left = 32
           Top = 248
-          Width = 123
+          Width = 122
           Height = 19
           Caption = #224' '#223' '#226' '#225
           Font.Charset = DEFAULT_CHARSET
@@ -545,7 +547,7 @@ object MainForm: TMainForm
         object LblAutoDescB: TLabel
           Left = 40
           Top = 320
-          Width = 111
+          Width = 110
           Height = 19
           Caption = #230' '#229' '#228' '#227
           Font.Charset = DEFAULT_CHARSET
@@ -739,7 +741,7 @@ object MainForm: TMainForm
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 31
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
@@ -817,7 +819,7 @@ object MainForm: TMainForm
         Left = 0
         Top = 0
         Width = 185
-        Height = 457
+        Height = 31
         Align = alClient
         BevelOuter = bvNone
         Color = clBlack
@@ -970,7 +972,7 @@ object MainForm: TMainForm
       Left = 0
       Top = 0
       Width = 185
-      Height = 457
+      Height = 31
       Align = alClient
       BevelOuter = bvNone
       Color = clBlack
@@ -1011,7 +1013,7 @@ object MainForm: TMainForm
     Left = 0
     Top = 0
     Width = 721
-    Height = 562
+    Height = 136
     Align = alClient
     BevelOuter = bvNone
     Color = clBlack
@@ -1020,23 +1022,25 @@ object MainForm: TMainForm
       Left = 0
       Top = 0
       Width = 721
-      Height = 513
+      Height = 88
       Align = alClient
       BevelOuter = bvNone
       BorderStyle = bsNone
       Color = clBlack
       ParentColor = False
       TabOrder = 1
+      ExplicitHeight = 87
     end
     object pnl_tools: TPanel
       Left = 0
-      Top = 513
+      Top = 88
       Width = 721
       Height = 49
       Align = alBottom
       BevelOuter = bvNone
       Color = clBlack
       TabOrder = 0
+      ExplicitTop = 87
       object BtnToolCA: TButton
         Left = 8
         Top = 8
