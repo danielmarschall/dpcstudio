@@ -1183,7 +1183,7 @@ object MainForm: TMainForm
     end
   end
   object dlg_save_text: TSaveDialog
-    DefaultExt = '.txt'
+    DefaultExt = 'txt'
     Filter = 'Textdatei (*.txt)|*.txt|Alle Dateien (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     Left = 72
@@ -1224,7 +1224,7 @@ object MainForm: TMainForm
     end
   end
   object dlg_open: TOpenPictureDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 
       'Alle (*.bmp;*.jpg;*.jpeg;*.ico;*.emf;*.wmf)|*.bmp;*.jpg;*.jpeg;*' +
       '.ico;*.emf;*.wmf|JPEG-Grafikdatei (*.jpg)|*.jpg|JPEG-Grafikdatei' +
@@ -1235,7 +1235,7 @@ object MainForm: TMainForm
     Top = 8
   end
   object dlg_save: TSavePictureDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 
       'Alle (*.bmp;*.jpg;*.jpeg;*.ico;*.emf;*.wmf)|*.bmp;*.jpg;*.jpeg;*' +
       '.ico;*.emf;*.wmf|JPEG-Grafikdatei (*.jpg)|*.jpg|JPEG-Grafikdatei' +
@@ -1246,7 +1246,7 @@ object MainForm: TMainForm
     Top = 8
   end
   object dlg_open2: TOpenPictureDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 
       'Alle (*.bmp;*.jpg;*.jpeg;*.ico;*.emf;*.wmf)|*.bmp;*.jpg;*.jpeg;*' +
       '.ico;*.emf;*.wmf|JPEG-Grafikdatei (*.jpg)|*.jpg|JPEG-Grafikdatei' +

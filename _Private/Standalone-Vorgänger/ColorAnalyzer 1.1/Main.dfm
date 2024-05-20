@@ -237,21 +237,21 @@ object MainForm: TMainForm
     end
   end
   object dlg_open: TOpenDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 'Bitmap (*.bmp)|*.bmp|Alle Dateien (*.*)|*.*'
     Options = [ofReadOnly, ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
     Left = 8
     Top = 8
   end
   object dlg_save: TSaveDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 'Bitmap (*.bmp)|*.bmp|Alle Dateien (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     Left = 40
     Top = 8
   end
   object dlg_save_text: TSaveDialog
-    DefaultExt = '.txt'
+    DefaultExt = 'txt'
     Filter = 'Textdatei (*.txt)|*.txt|Alle Dateien (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     Left = 72

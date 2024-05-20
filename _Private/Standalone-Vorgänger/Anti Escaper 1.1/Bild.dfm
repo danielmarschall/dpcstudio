@@ -50,14 +50,14 @@ object PicForm: TPicForm
     Transparent = True
   end
   object OpenDialog: TOpenDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 'Bitmaps (*.bmp)|*.bmp|Alle Dateien (*.*)|*.*'
     Options = [ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
     Left = 40
     Top = 8
   end
   object SaveDialog: TSaveDialog
-    DefaultExt = '.bmp'
+    DefaultExt = 'bmp'
     Filter = 'Bitmap (*.bmp)|*.bmp|Alle Dateien (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     Left = 8
